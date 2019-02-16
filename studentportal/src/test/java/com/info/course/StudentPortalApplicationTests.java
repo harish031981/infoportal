@@ -37,7 +37,7 @@ public class StudentPortalApplicationTests {
     
     @Test
     public void addUser() {
-    	User user = new User("testuser", "testuser", "USER");
+    	User user = new User("testuser1", "testuser", "USER");
 
     	assertNull(user.getId());
     	userRepository.save(user);
