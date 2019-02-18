@@ -108,7 +108,7 @@
 				<activeByDefault>true</activeByDefault>
 			</activation>
 			<properties>
-				<sonar.host.url>http://localhost:9000</sonar.host.url>
+				<sonar.host.url>http://172.16.3.136:9000</sonar.host.url>
 				<sonar.test.exclusions>**/test/**/*.*</sonar.test.exclusions>
 				<!-- sonar.exclusions>**/ai/**/*.*,**/jdbc/**/*.*,**/mpt/**/*.*,**/jcr/**/*.*,**/JDBC*</sonar.exclusions -->
 				<sonar.inclusions>**/*.java</sonar.inclusions>
