@@ -81,7 +81,7 @@ public class StudentPortalApplicationTests {
     public void addCourse1() {
 		
 		Course course = new Course();
-		course.setName("testcourse1");
+		course.setName("testcourse");
 		course.setStudents(new HashSet<>());
 		courseRepository.save(course);
 		List<Course> courses = courseRepository.findByName(course.getName());
