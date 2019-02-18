@@ -59,7 +59,7 @@ public class StudentPortalApplicationTests {
     
 	@Test
     public void addStudent() {
-		Student student = new Student("Test", "Student", "IT", "test@test.com");
+		Student student = new Student("Test1", "Student", "IT", "test@test.com");
 		
 		studentRepository.save(student);
 		Optional<Student> findStudent = studentRepository.findById(student.getId());
