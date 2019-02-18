@@ -70,7 +70,7 @@ public class StudentPortalApplicationTests {
     public void addCourse() {
 		
 		Course course = new Course();
-		course.setName("testcourse");
+		course.setName("testcourse1");
 		course.setStudents(new HashSet<>());
 		courseRepository.save(course);
 		List<Course> courses = courseRepository.findByName(course.getName());
